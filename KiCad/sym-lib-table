@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name MCU_Module_Microbit)(type Legacy)(uri ${KIPRJMOD}/Libraries/kicad_microbit_connector/lib_microbit_connector/lib_microbit_connector.lib)(options "")(descr "BBC micro:bit edge connector"))
+  (lib (name MCU_Module_ESP8266)(type Legacy)(uri ${KIPRJMOD}/Libraries/kicad_esp8266_modules/symbol_library/ESP8266_Modules.lib)(options "")(descr "ESP8266 Modules"))
 )
