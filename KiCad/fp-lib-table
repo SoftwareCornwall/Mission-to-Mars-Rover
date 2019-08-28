@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name MCU_Module_Microbit)(type KiCad)(uri ${KIPRJMOD}/Libraries/kicad_microbit_connector/Connectors_4UCON.pretty)(options "")(descr "BBC micro:bit edge connector"))
+  (lib (name Software_Cornwall)(type KiCad)(uri ${KIPRJMOD}/SoftwareCornwall.pretty)(options "")(descr ""))
 )
