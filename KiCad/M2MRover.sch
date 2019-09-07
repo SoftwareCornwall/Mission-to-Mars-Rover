@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Mission to Mars Rover"
 Date ""
 Rev "0.0.1-draft"
@@ -1359,4 +1359,10 @@ Wire Wire Line
 	4750 1300 4750 1350
 Wire Wire Line
 	5150 1300 5150 1350
+$Sheet
+S 2050 5650 600  750 
+U 5D76056E
+F0 "Motor Control" 50
+F1 "M2MRover_MotorControl.sch" 50
+$EndSheet
 $EndSCHEMATC
