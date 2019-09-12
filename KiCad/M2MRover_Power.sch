@@ -1,0 +1,309 @@
+EESchema Schematic File Version 4
+LIBS:M2MRover-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8150 2450 8150 2400
+Wire Wire Line
+	7650 2450 8150 2450
+Wire Wire Line
+	7650 2450 7650 2550
+Connection ~ 7650 2450
+Wire Wire Line
+	7000 2450 7650 2450
+Wire Wire Line
+	7000 2400 7000 2450
+Wire Wire Line
+	7000 2050 7350 2050
+Wire Wire Line
+	7000 2100 7000 2050
+Wire Wire Line
+	8150 2100 8150 2050
+$Comp
+L Device:C C?
+U 1 1 5D8C75E8
+P 8150 2250
+AR Path="/5D8C75E8" Ref="C?"  Part="1" 
+AR Path="/5D8AF1EB/5D8C75E8" Ref="C8"  Part="1" 
+F 0 "C8" H 8265 2296 50  0000 L CNN
+F 1 "10uF" H 8265 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8188 2100 50  0001 C CNN
+F 3 "~" H 8150 2250 50  0001 C CNN
+	1    8150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D8C75EE
+P 7000 2250
+AR Path="/5D8C75EE" Ref="C?"  Part="1" 
+AR Path="/5D8AF1EB/5D8C75EE" Ref="C7"  Part="1" 
+F 0 "C7" H 7115 2296 50  0000 L CNN
+F 1 "100nF" H 7115 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7038 2100 50  0001 C CNN
+F 3 "~" H 7000 2250 50  0001 C CNN
+	1    7000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 U?
+U 1 1 5D8C75F4
+P 7650 2050
+AR Path="/5D8C75F4" Ref="U?"  Part="1" 
+AR Path="/5D8AF1EB/5D8C75F4" Ref="U4"  Part="1" 
+F 0 "U4" H 7650 2292 50  0000 C CNN
+F 1 "LD1117V33" H 7650 2201 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7650 2250 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 7750 1800 50  0001 C CNN
+	1    7650 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2350 7650 2450
+Wire Wire Line
+	8150 2050 8150 1900
+Wire Wire Line
+	7950 2050 8150 2050
+Wire Wire Line
+	7000 1900 7000 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5D8C75FE
+P 7650 2550
+AR Path="/5D8C75FE" Ref="#PWR?"  Part="1" 
+AR Path="/5D8AF1EB/5D8C75FE" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 7650 2300 50  0001 C CNN
+F 1 "GND" H 7655 2377 50  0000 C CNN
+F 2 "" H 7650 2550 50  0001 C CNN
+F 3 "" H 7650 2550 50  0001 C CNN
+	1    7650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8C7604
+P 8150 1900
+AR Path="/5D8C7604" Ref="#PWR?"  Part="1" 
+AR Path="/5D8AF1EB/5D8C7604" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 8150 1750 50  0001 C CNN
+F 1 "+3.3V" H 8165 2073 50  0000 C CNN
+F 2 "" H 8150 1900 50  0001 C CNN
+F 3 "" H 8150 1900 50  0001 C CNN
+	1    8150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D8C760A
+P 7000 1900
+AR Path="/5D8C760A" Ref="#PWR?"  Part="1" 
+AR Path="/5D8AF1EB/5D8C760A" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 7000 1750 50  0001 C CNN
+F 1 "+5V" H 7015 2073 50  0000 C CNN
+F 2 "" H 7000 1900 50  0001 C CNN
+F 3 "" H 7000 1900 50  0001 C CNN
+	1    7000 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 2050
+Connection ~ 8150 2050
+$Comp
+L Device:Battery BT?
+U 1 1 5D8D7E6D
+P 2600 2300
+AR Path="/5D76056E/5D8D7E6D" Ref="BT?"  Part="1" 
+AR Path="/5D8AF1EB/5D8D7E6D" Ref="BT1"  Part="1" 
+F 0 "BT1" H 2708 2346 50  0000 L CNN
+F 1 "Battery" H 2708 2255 50  0000 L CNN
+F 2 "" V 2600 2360 50  0001 C CNN
+F 3 "~" V 2600 2360 50  0001 C CNN
+	1    2600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5D8D7E73
+P 2300 1950
+AR Path="/5D76056E/5D8D7E73" Ref="SW?"  Part="1" 
+AR Path="/5D8AF1EB/5D8D7E73" Ref="SW1"  Part="1" 
+F 0 "SW1" H 2300 2185 50  0000 C CNN
+F 1 "SW_SPST" H 2300 2094 50  0000 C CNN
+F 2 "" H 2300 1950 50  0001 C CNN
+F 3 "~" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5D8D7E79
+P 1850 1650
+AR Path="/5D76056E/5D8D7E79" Ref="#PWR?"  Part="1" 
+AR Path="/5D8AF1EB/5D8D7E79" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 1850 1500 50  0001 C CNN
+F 1 "+BATT" H 1865 1823 50  0000 C CNN
+F 2 "" H 1850 1650 50  0001 C CNN
+F 3 "" H 1850 1650 50  0001 C CNN
+	1    1850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8D7E7F
+P 2600 2650
+AR Path="/5D76056E/5D8D7E7F" Ref="#PWR?"  Part="1" 
+AR Path="/5D8AF1EB/5D8D7E7F" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 2600 2400 50  0001 C CNN
+F 1 "GND" H 2605 2477 50  0000 C CNN
+F 2 "" H 2600 2650 50  0001 C CNN
+F 3 "" H 2600 2650 50  0001 C CNN
+	1    2600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1950 1850 1950
+Wire Wire Line
+	1850 1950 1850 1650
+Wire Wire Line
+	2600 2500 2600 2550
+Wire Wire Line
+	2600 2100 2600 1950
+Wire Wire Line
+	2600 1950 2500 1950
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D8D7E8A
+P 1850 2050
+AR Path="/5D76056E/5D8D7E8A" Ref="#FLG?"  Part="1" 
+AR Path="/5D8AF1EB/5D8D7E8A" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 1850 2125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1850 2223 50  0000 C CNN
+F 2 "" H 1850 2050 50  0001 C CNN
+F 3 "~" H 1850 2050 50  0001 C CNN
+	1    1850 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 1950 1850 2050
+Connection ~ 1850 1950
+$Comp
+L Regulator_Linear:LD1117S50TR_SOT223 U3
+U 1 1 5DAC211B
+P 5350 2050
+F 0 "U3" H 5350 2292 50  0000 C CNN
+F 1 "LD1117V50" H 5350 2201 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5350 2250 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 5450 1800 50  0001 C CNN
+	1    5350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR016
+U 1 1 5DAC46DA
+P 4700 1950
+F 0 "#PWR016" H 4700 1800 50  0001 C CNN
+F 1 "+BATT" H 4715 2123 50  0000 C CNN
+F 2 "" H 4700 1950 50  0001 C CNN
+F 3 "" H 4700 1950 50  0001 C CNN
+	1    4700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR018
+U 1 1 5DAC4EB2
+P 5950 1900
+F 0 "#PWR018" H 5950 1750 50  0001 C CNN
+F 1 "+5V" H 5965 2073 50  0000 C CNN
+F 2 "" H 5950 1900 50  0001 C CNN
+F 3 "" H 5950 1900 50  0001 C CNN
+	1    5950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5DAC539C
+P 5350 2600
+F 0 "#PWR017" H 5350 2350 50  0001 C CNN
+F 1 "GND" H 5355 2427 50  0000 C CNN
+F 2 "" H 5350 2600 50  0001 C CNN
+F 3 "" H 5350 2600 50  0001 C CNN
+	1    5350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5DAC5881
+P 4700 2250
+F 0 "C5" H 4815 2296 50  0000 L CNN
+F 1 "100nF" H 4815 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 2100 50  0001 C CNN
+F 3 "~" H 4700 2250 50  0001 C CNN
+	1    4700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5DAC5BC7
+P 5950 2250
+F 0 "C6" H 6065 2296 50  0000 L CNN
+F 1 "10uF" H 6065 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5988 2100 50  0001 C CNN
+F 3 "~" H 5950 2250 50  0001 C CNN
+	1    5950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1950 4700 2050
+Wire Wire Line
+	5050 2050 4700 2050
+Connection ~ 4700 2050
+Wire Wire Line
+	4700 2050 4700 2100
+Wire Wire Line
+	4700 2400 4700 2450
+Wire Wire Line
+	4700 2450 5350 2450
+Wire Wire Line
+	5950 2450 5950 2400
+Wire Wire Line
+	5350 2350 5350 2450
+Connection ~ 5350 2450
+Wire Wire Line
+	5350 2450 5950 2450
+Wire Wire Line
+	5350 2450 5350 2600
+Wire Wire Line
+	5950 1900 5950 2050
+Wire Wire Line
+	5650 2050 5950 2050
+Connection ~ 5950 2050
+Wire Wire Line
+	5950 2050 5950 2100
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5DAF5FD3
+P 2350 2550
+F 0 "#FLG02" H 2350 2625 50  0001 C CNN
+F 1 "PWR_FLAG" V 2350 2677 50  0000 L CNN
+F 2 "" H 2350 2550 50  0001 C CNN
+F 3 "~" H 2350 2550 50  0001 C CNN
+	1    2350 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 2550 2600 2550
+Connection ~ 2600 2550
+Wire Wire Line
+	2600 2550 2600 2650
+$EndSCHEMATC
