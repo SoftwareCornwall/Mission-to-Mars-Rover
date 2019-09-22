@@ -59,17 +59,17 @@ $EndComp
 Wire Wire Line
 	5350 850  5350 950 
 Text GLabel 4350 2250 0    50   Output ~ 0
-ENA
-Text GLabel 4350 2150 0    50   Output ~ 0
-IN1
-Text GLabel 4350 2050 0    50   Output ~ 0
-IN2
-Text GLabel 4350 2550 0    50   Output ~ 0
-IN3
-Text GLabel 4350 2450 0    50   Output ~ 0
-IN4
-Text GLabel 4350 2350 0    50   Output ~ 0
 ENB
+Text GLabel 4350 2150 0    50   Output ~ 0
+IN3
+Text GLabel 4350 2050 0    50   Output ~ 0
+IN4
+Text GLabel 4350 2550 0    50   Output ~ 0
+IN1
+Text GLabel 4350 2450 0    50   Output ~ 0
+IN2
+Text GLabel 4350 2350 0    50   Output ~ 0
+ENA
 Wire Wire Line
 	4350 2550 4650 2550
 Wire Wire Line
@@ -103,9 +103,9 @@ Wire Wire Line
 Wire Wire Line
 	5650 2150 6000 2150
 Text GLabel 4350 1550 0    50   Input ~ 0
-Left_Hall
-Text GLabel 4350 1650 0    50   Input ~ 0
 Right_Hall
+Text GLabel 4350 1650 0    50   Input ~ 0
+Left_Hall
 Wire Wire Line
 	4350 1550 4650 1550
 Wire Wire Line
@@ -139,9 +139,9 @@ Wire Wire Line
 Wire Wire Line
 	4350 1850 4650 1850
 Text GLabel 6000 1950 2    50   Output ~ 0
-Right_LED
-Text GLabel 6000 2050 2    50   Output ~ 0
 Left_LED
+Text GLabel 6000 2050 2    50   Output ~ 0
+Right_LED
 Wire Wire Line
 	5650 2050 6000 2050
 Wire Wire Line
@@ -309,18 +309,6 @@ NoConn ~ 1750 4550
 NoConn ~ 1750 4650
 NoConn ~ 1750 4750
 NoConn ~ 1750 4850
-Wire Wire Line
-	1750 2450 2150 2450
-Wire Wire Line
-	1750 2650 2150 2650
-Wire Wire Line
-	1750 2750 2150 2750
-Wire Wire Line
-	2000 2950 2150 2950
-Wire Wire Line
-	1750 3650 2150 3650
-Wire Wire Line
-	2000 3850 2150 3850
 NoConn ~ 1750 2550
 $Comp
 L Mechanical:MountingHole H1
@@ -513,4 +501,16 @@ U 5D90936B
 F0 "Connectors" 50
 F1 "M2MRover_Connectors.sch" 50
 $EndSheet
+Wire Wire Line
+	1750 2450 2150 2450
+Wire Wire Line
+	1750 2650 2150 2650
+Wire Wire Line
+	1750 2750 2150 2750
+Wire Wire Line
+	2000 2950 2150 2950
+Wire Wire Line
+	1750 3650 2150 3650
+Wire Wire Line
+	2000 3850 2150 3850
 $EndSCHEMATC
