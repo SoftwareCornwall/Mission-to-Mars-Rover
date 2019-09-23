@@ -127,7 +127,7 @@ AR Path="/5D76056E/5D8D7E6D" Ref="BT?"  Part="1"
 AR Path="/5D8AF1EB/5D8D7E6D" Ref="BT1"  Part="1" 
 F 0 "BT1" H 2708 2346 50  0000 L CNN
 F 1 "Battery" H 2708 2255 50  0000 L CNN
-F 2 "" V 2600 2360 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 2600 2360 50  0001 C CNN
 F 3 "~" V 2600 2360 50  0001 C CNN
 	1    2600 2300
 	1    0    0    -1  
@@ -140,7 +140,7 @@ AR Path="/5D76056E/5D8D7E73" Ref="SW?"  Part="1"
 AR Path="/5D8AF1EB/5D8D7E73" Ref="SW1"  Part="1" 
 F 0 "SW1" H 2300 2185 50  0000 C CNN
 F 1 "SW_SPST" H 2300 2094 50  0000 C CNN
-F 2 "" H 2300 1950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2300 1950 50  0001 C CNN
 F 3 "~" H 2300 1950 50  0001 C CNN
 	1    2300 1950
 	1    0    0    -1  

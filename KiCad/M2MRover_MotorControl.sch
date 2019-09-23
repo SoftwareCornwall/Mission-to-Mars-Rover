@@ -648,13 +648,13 @@ F 3 "~" H 2500 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1650 6350 0    50   Input ~ 0
-OUT1
-Text GLabel 1650 6450 0    50   Input ~ 0
 OUT2
+Text GLabel 1650 6450 0    50   Input ~ 0
+OUT1
 Text GLabel 1650 7100 0    50   Input ~ 0
-OUT3
-Text GLabel 1650 7000 0    50   Input ~ 0
 OUT4
+Text GLabel 1650 7000 0    50   Input ~ 0
+OUT3
 Wire Wire Line
 	1650 6350 2300 6350
 Wire Wire Line
