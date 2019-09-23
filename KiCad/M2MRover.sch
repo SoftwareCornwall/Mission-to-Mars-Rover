@@ -285,15 +285,15 @@ Wire Wire Line
 Wire Wire Line
 	2250 2250 2000 2250
 Text GLabel 2150 2650 2    50   Output ~ 0
-IN1
-Text GLabel 2150 2750 2    50   Output ~ 0
 IN2
-Text GLabel 2150 2450 2    50   Output ~ 0
-IN3
-Text GLabel 2150 3650 2    50   Output ~ 0
-IN4
-Text GLabel 2150 3850 2    50   Output ~ 0
+Text GLabel 2150 2750 2    50   Output ~ 0
 ENA
+Text GLabel 2150 2450 2    50   Output ~ 0
+IN1
+Text GLabel 2150 3650 2    50   Output ~ 0
+IN3
+Text GLabel 2150 3850 2    50   Output ~ 0
+IN4
 Text GLabel 2150 2950 2    50   Output ~ 0
 ENB
 NoConn ~ 1750 3250
