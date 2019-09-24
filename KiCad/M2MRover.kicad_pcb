@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 11)
     (tracks 429)
     (zones 0)
     (modules 58)
@@ -29,7 +29,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (trace_clearance 0.2)
@@ -2820,6 +2820,18 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.4 5.4) (drill 2.7) (layers *.Cu *.Mask))
   )
 
+  (dimension 13.97 (width 0.15) (layer Dwgs.User)
+    (gr_text "13.970 mm" (at 186.055 95.220001) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 193.04 97.155) (xy 193.04 95.93358)))
+    (feature2 (pts (xy 179.07 97.155) (xy 179.07 95.93358)))
+    (crossbar (pts (xy 179.07 96.520001) (xy 193.04 96.520001)))
+    (arrow1a (pts (xy 193.04 96.520001) (xy 191.913496 97.106422)))
+    (arrow1b (pts (xy 193.04 96.520001) (xy 191.913496 95.93358)))
+    (arrow2a (pts (xy 179.07 96.520001) (xy 180.196504 97.106422)))
+    (arrow2b (pts (xy 179.07 96.520001) (xy 180.196504 95.93358)))
+  )
   (gr_line (start 145 45) (end 145 135) (layer Dwgs.User) (width 0.15) (tstamp 5D8923EC))
   (gr_line (start 185 90) (end 105 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 185 135) (end 185 45) (layer Dwgs.User) (width 0.15) (tstamp 5D70A4E2))
@@ -3285,7 +3297,7 @@
   (segment (start 126.365 48.26) (end 126.365 52.07) (width 1) (layer F.Cu) (net 102))
   (segment (start 142.24 46.99) (end 147.32 46.99) (width 1) (layer F.Cu) (net 103))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D890B46) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D8A9CFD) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4093,7 +4105,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D890B43) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D8A9CFA) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
