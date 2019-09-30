@@ -532,4 +532,15 @@ Wire Wire Line
 Connection ~ 2850 5800
 Wire Wire Line
 	2850 5800 3150 5800
+$Comp
+L SoftwareCornwall:Software_Cornwall_Logo LOGO1
+U 1 1 5D930A82
+P 10150 4950
+F 0 "LOGO1" H 10150 4800 50  0001 C CNN
+F 1 "Software_Cornwall_Logo" H 10150 5150 50  0001 C CNN
+F 2 "Software_Cornwall:SoftwareCornwallLogo" H 10150 4700 50  0001 C CNN
+F 3 "" H 10150 4950 50  0001 C CNN
+	1    10150 4950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
