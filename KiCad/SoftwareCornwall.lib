@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Software_Cornwall_Logo
+#
+DEF Software_Cornwall_Logo LOGO 0 40 Y Y 1 F N
+F0 "LOGO" 0 -150 50 H I C CNN
+F1 "Software_Cornwall_Logo" 0 200 50 H I C CNN
+F2 "Software_Cornwall:SoftwareCornwallLogo" 0 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 50 0 0 0 "Software Cornwall Logo" Normal 0 C C
+S -500 100 500 -100 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+#End Library
