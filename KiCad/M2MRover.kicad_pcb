@@ -3,9 +3,9 @@
   (general
     (thickness 1.6)
     (drawings 11)
-    (tracks 416)
+    (tracks 415)
     (zones 0)
-    (modules 60)
+    (modules 61)
     (nets 104)
   )
 
@@ -13,7 +13,7 @@
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
-    (33 F.Adhes user)
+    (33 F.Adhes user hide)
     (35 F.Paste user)
     (37 F.SilkS user)
     (39 F.Mask user)
@@ -29,7 +29,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (trace_clearance 0.2)
@@ -303,6 +303,20 @@
     (add_net Ultrasonic_Down_Trigger)
     (add_net Ultrasonic_Forward_Echo)
     (add_net Ultrasonic_Forward_Trigger)
+  )
+
+  (module Software_Cornwall:JLCPCBOrderNumber (layer F.Cu) (tedit 5D93E761) (tstamp 5D947A89)
+    (at 141.605 92.71)
+    (path /5D941D90)
+    (fp_text reference ORDERNO1 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value JLCPCB_Order_Number (at 0 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user JLCJLCJLCJLC (at 0 0) (layer F.SilkS)
+      (effects (font (size 1.5 1.5) (thickness 0.15)))
+    )
   )
 
   (module Software_Cornwall:SoftwareCornwallLogo (layer F.Cu) (tedit 0) (tstamp 5D92D1DB)
@@ -3128,7 +3142,6 @@
   (gr_line (start 185 45) (end 185 135) (layer Edge.Cuts) (width 0.05) (tstamp 5D70A4DF))
   (gr_line (start 105 45) (end 185 45) (layer Edge.Cuts) (width 0.05))
 
-  (via (at 66.675 109.22) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 0))
   (via (at 165.735 50.165) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 112.395 96.52) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 122.555 96.52) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
@@ -3545,7 +3558,7 @@
   (segment (start 106.864991 120.054991) (end 106.864991 116.186007) (width 0.25) (layer F.Cu) (net 103))
   (segment (start 110.49 123.68) (end 106.864991 120.054991) (width 0.25) (layer F.Cu) (net 103))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D93E23C) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D949289) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4360,7 +4373,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D93E239) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D949286) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

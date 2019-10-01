@@ -543,4 +543,15 @@ F 3 "" H 10150 4950 50  0001 C CNN
 	1    10150 4950
 	1    0    0    -1  
 $EndComp
+$Comp
+L SoftwareCornwall:JLCPCB_Order_Number ORDERNO1
+U 1 1 5D941D90
+P 10150 5300
+F 0 "ORDERNO1" H 10150 5150 50  0001 C CNN
+F 1 "JLCPCB_Order_Number" H 10150 5450 50  0001 C CNN
+F 2 "Software_Cornwall:JLCPCBOrderNumber" H 10150 5050 50  0001 C CNN
+F 3 "" H 10150 5300 50  0001 C CNN
+	1    10150 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,6 +1,19 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# JLCPCB_Order_Number
+#
+DEF JLCPCB_Order_Number ORDERNO 0 40 Y Y 1 F N
+F0 "ORDERNO" 0 -150 50 H I C CNN
+F1 "JLCPCB_Order_Number" 0 150 50 H I C CNN
+F2 "Software_Cornwall:JLCPCBOrderNumber" 0 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 50 0 0 0 "JLCPCB Order Reference" Normal 0 C C
+S -500 100 500 -100 0 0 0 f
+ENDDRAW
+ENDDEF
+#
 # Software_Cornwall_Logo
 #
 DEF Software_Cornwall_Logo LOGO 0 40 Y Y 1 F N
