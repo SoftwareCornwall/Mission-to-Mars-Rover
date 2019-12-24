@@ -1,0 +1,114 @@
+Note: The price is Bundle(optiona)1,Lonten provide electronic component for tics,welcome OEM ,ODM,for more please contact.
+Item specifics
+:
+Features: Remote Control
+Type: Tank
+Charging Time: other
+Controller Mode: MODE1
+Flight Time: other
+State of Assembly: Unassembled Kit
+Barcode: Yes
+Design: other
+Controller Battery: other
+Remote Distance: other
+Charging Voltage: other
+Certification: 3C
+Model Number: other
+14 years old"> Age Range: 14 years old">> 14 years old
+3C: Certificate
+Material: Metal
+Warranty: other
+Control Channels: 2 Channels
+Dimensions: other
+Warning: other
+Certificate Number: 2017NT04142709
+Remote Control: Yes
+Barcode number: 2ALSB-ESP-F
+Features: Musical
+Product Description
+ 
+
+A novel design has already coming for the tank chassis, with beautiful shape, and full metal aluminum alloy structure. In this tank chassis, a space for 9g servo is left for the ultrasonic sensor, and a space for MG995 servo is also left to rotate the mechanical manipulator. What’smore, UNO R3 and NodeMCU development boards are also designed to install. In addition, the metal panel can be used to install the wheeled car by install the 25mm and/or 37mm motor frames. Interesting, a LED light is installed to brighten the dark in the night. Under the help of the motor, the tank chassis can be smoothly turn left, right, circle, forward and backward, ect. Therefore, when you the chassis, it can do many things for you, like ting the temperature and mobile monitor. Certainly, we have developed a series of car/tank chassis. Hoping you can choose your loved car chassis.
+
+More details, : https://github.com///
+
+ 
+ 
+
+Novel and elegant appearance;
+
+Aluminum alloy;
+
+Solid structure;
+
+Powerful force;
+
+Quickly,stability, flexibility;
+
+Strong power;
+
+Name: T300 Intelligent track car/tank chassis
+
+Material: aluminum alloy
+
+Wheel: metal
+
+Track: engineering plastic
+
+Product size: about 290*270*100mm (length * width * height)
+
+Weight: 1700g
+
+Color: golden yellow/silver.
+
+Motor Parameters:
+Name: 25mm gear motor
+
+Output speed: 150±10%rpm
+
+No_load current: 200mA (Max)
+
+Stall current: 4500mA(max)
+
+Stall torque: 9.5kgNaN
+
+Rated speed: 100±10%rpm
+
+Rated torque: 3000gNaN
+
+Rated current: 1200mA (Max)
+
+Noise: 56dB
+
+Working voltage: 9V
+
+Outside Shaft Length: 14.5mm
+
+Shaft End Play: 0.05-0.50mm
+
+Screw Size: M3.0
+
+Dia. Of Shaft phi 4mm, D3.5
+
+Encoder: 2pulses/circle
+
+​OEM  metal tank chassis T300 t tracked car with motor and track/trail diy rc toy kit clawler caterpillar smart teaching
+Chassis:1 pcs
+
+Driving wheels: 2 pcs
+
+Bearing wheels: 10 pcs
+
+Track:2 pcs (can be changed the length)
+
+DC motor: 2 pcs (25 motor)
+
+LED light: 2 pcs
+
+Screws:several
+
+Screw tools: 3 pcs      
+
+For the shipping convenience, the tank/car chassis is unassembled.
+
+Track can be connected by any length with a needle.
