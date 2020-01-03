@@ -157,7 +157,7 @@ U 1 1 5D67D28C
 P 1250 2850
 F 0 "J1" H 1250 4875 50  0000 C CNN
 F 1 "microbit_edge_connector" H 1250 4784 50  0000 C CNN
-F 2 "MCU_Module_Microbit:4UCON_17909_02x401.27mm_Vertical" H 1150 2750 50  0001 C CNN
+F 2 "Software_Cornwall:4UCON_10156_B3_Horizontal" H 1150 2750 50  0001 C CNN
 F 3 "https://www.microbit.co.uk/device/pins" H 1150 2750 50  0001 C CNN
 	1    1250 2850
 	1    0    0    -1  
