@@ -5,6 +5,7 @@
 #include "MarsRoverMotors.h"
 #include "MarsRoverMotorFeedback.h"
 #include "MarsRoverMotorFeedbackInterrupts.h"
+#include "MarsRoverIOMap.h"
 
 class MarsRover
 {
@@ -17,7 +18,7 @@ public:
 	MarsRoverMotorFeedback& leftFeedback{feedbackInterrupts.leftFeedback};
 	MarsRoverMotorFeedback& rightFeedback{feedbackInterrupts.rightFeedback};
 
-	MarsRover();
+	explicit MarsRover(MarsRoverIOMap const& io = MarsRoverV2);
 	MarsRover(MarsRover const&) = delete;
 	MarsRover& operator=(MarsRover const&) = delete;
 
